@@ -12,7 +12,7 @@ class Fleet:
         self.create_fleet()
 
     def create_fleet(self):
-        tank = Robot("Grunt", 100)
+        tank = Robot("Ground Pounder", 100)
         scout = Robot("Recon", 80)
         sniper = Robot("Killshot", 80)
 
