@@ -4,8 +4,8 @@
 #Proj: Robots vs. Dinosaurs
 
 #imports
-from weapon import Weapon
 from robot import Robot
-from dinosaur import Dinosaur
-from fleet import Fleet
-from herd import Herd
+from battlefield import Battlefield
+
+new_battle = Battlefield()
+new_battle.run_game()

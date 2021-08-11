@@ -4,7 +4,7 @@
 #Proj: Robots vs. Dinosaurs
 
 #imports
-from robot import Robot
+#from robot import Robot
 
 class Dinosaur:
     def __init__(self,name,health, attack_power):
@@ -19,7 +19,7 @@ class Dinosaur:
 
     def dino_attack(self, robot):
         robot.health -= self.attack_power
-        print(self.name + " attacked for " + self.attack_power + "damage")
+        print(self.name + " attacked a member of the robot fleet for " + str(self.attack_power) + " dmg")
 
 
   

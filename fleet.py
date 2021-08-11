@@ -8,19 +8,19 @@ from robot import Robot
 
 class Fleet:
     def __init__(self):
-        self.robots = []
+        self.robots_list = []
         self.create_fleet()
 
     # def create_fleet(self):
-    #     self.robots.append(Robot("Grunt", 200))
-    #     self.robots.append(Robot("Recon", 100))
-    #     self.robots.append(Robot("Killshot", 100))
+    #     self.robots_list.append(Robot("Grunt", 200))
+    #     self.robots_list.append(Robot("Recon", 100))
+    #     self.robots_list.append(Robot("Killshot", 100))
 
-    def add_robots(self):
+    def create_fleet(self):
         tank = Robot("Grunt", 200)
         scout = Robot("Recon", 100)
         sniper = Robot("Killshot", 100)
 
-        self.robots.append(tank)
-        self.robots.append(scout)
-        self.robots.append(sniper)
+        self.robots_list.append(tank)
+        self.robots_list.append(scout)
+        self.robots_list.append(sniper)

@@ -21,6 +21,7 @@ class Robot:
 
     def robot_attack(self, dinosaur):
         dinosaur.health -= self.weapon.attack_power
+        print(self.name + " attacked a member of the dinosaur herd for " + str(self.attack_power) + " dmg")
 
 
     # def assign_weapon(self,Weapon):
