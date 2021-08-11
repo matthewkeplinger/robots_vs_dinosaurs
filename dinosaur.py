@@ -1,3 +1,9 @@
+#Name: Matt Keplinger
+#Date: 11 Aug 2021
+#File: dinosaur.py
+#Proj: Robots vs. Dinosaurs
+
+#imports
 from robot import Robot
 
 class Dinosaur:

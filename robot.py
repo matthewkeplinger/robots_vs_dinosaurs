@@ -1,3 +1,9 @@
+#Name: Matt Keplinger
+#Date: 11 Aug 2021
+#File: robot.py
+#Proj: Robots vs. Dinosaurs
+
+#imports
 from weapon import Weapon
 from dinosaur import Dinosaur
 
@@ -15,6 +21,7 @@ class Robot:
 
     def robot_attack(self, dinosaur):
         dinosaur.health -= self.weapon.attack_power
+
 
     # def assign_weapon(self,Weapon):
     #     # sword = Weapon("Energy Sword", 50)
