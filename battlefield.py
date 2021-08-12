@@ -59,12 +59,6 @@ class Battlefield:
             print(self.herd.dinosaur_list[0].name + " has gone extinct!\n")
             self.herd.dinosaur_list.pop(0)
 
-    #Figure out how to list opponents and choose from remaining opponents
-    def show_dino_opponent_options(self):
-        pass
-    def show_robo_opponent_options(self):
-        pass
-
     def display_winners(self, victor):
         print("*********************************")       
         print("And the " + victor + " are victorious!")
